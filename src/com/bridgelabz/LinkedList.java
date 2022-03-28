@@ -161,7 +161,6 @@ public class LinkedList {
 
     public void peek() {
         if (head == null) {
-            System.out.println("List is empty");
             return;
         }
         System.out.println(head.data);
